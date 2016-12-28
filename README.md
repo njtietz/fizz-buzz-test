@@ -17,3 +17,16 @@ I have a coffee shop and am hiring you to write some software to digitize my ord
   - allow me to pull information to determine which ingredients are popular and which could be phased out
   
 Which design patterns could be considered for implementation to solve this problem and meet these goals? Of those suggested, which would be your preference, and why? 
+
+
+I would consider factory, builder and decorator.
+
+I would prefer the decorator design pattern because the code could look clean like this:
+
+```javascript
+// Cappuccino
+beverage = new Beverage();
+beverage.addEsspresso();
+beverage.addSteamedMilk();
+beverage.addFoamedMilk();
+```

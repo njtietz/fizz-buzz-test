@@ -17,11 +17,11 @@ class fizz_buzz{
 
 	private function get_fizz_buzz_value($input){
 		if($input % 3 == 0 && $input % 5 == 0){
-			return "fizzbuzz";
+			return "FizzBuzz";
 		} else if ($input % 3 == 0){
-			return "fizz";
+			return "Fizz";
 		} else if ($input % 5 == 0){
-			return "buzz";
+			return "Buzz";
 		} else {
 			return $input;
 		}

@@ -19,7 +19,7 @@ I have a coffee shop and am hiring you to write some software to digitize my ord
 Which design patterns could be considered for implementation to solve this problem and meet these goals? Of those suggested, which would be your preference, and why? 
 
 
-I would consider factory, builder and decorator.
+I would consider factory, builder, strategy and decorator.
 
 I would prefer the decorator design pattern because the code could look clean like this:
 
@@ -30,3 +30,4 @@ beverage.addEsspresso();
 beverage.addSteamedMilk();
 beverage.addFoamedMilk();
 ```
+The decorator design seems to fit the concept of a coffe shop well.

@@ -1,4 +1,4 @@
-# GalaxE Solutions coding test
+# Interview Coding Test
 
 ### Question
 
